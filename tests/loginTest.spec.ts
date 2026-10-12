@@ -24,4 +24,5 @@ import {LoginPage} from '../Pages/LoginPage';
    await loginPage.invalidLogin();
    // Verify error message displayed
    await loginPage.verifyLoginError();
+   console.log('User failed to log in with invalid credentials');
   });
